@@ -1,0 +1,792 @@
+@media screen and (max-width: 1920px) {
+    .lavander {
+        background-image: url("../images/Lavender.png");
+        position: absolute;
+        left: -130px;
+        bottom: -145px;
+        height: 324px;
+        background-repeat: no-repeat;
+        width: 400px;
+    }
+
+    .petal1 {
+        position: absolute;
+        top: -130px;
+        width: 50px;
+        height: 67px;
+        left: -222px;
+        z-index: -1;
+    }
+
+    .petal2 {
+      position: absolute;
+      left: -350px;
+      top: 84px;
+      width: 60px;
+     height: 77px;
+     z-index: -100;
+    }
+
+    .petal3 {
+        position: absolute;
+        right: 0px;
+        top: 200px;
+        width: 111px;
+        height: 165px;
+        z-index: -100;
+    }
+
+    .petal4 {
+        position: absolute;
+        right: 40px;
+        top: 1px;
+        z-index: -1;
+    }
+    .petal5{
+        position: absolute;
+        right: -89px;
+        top: 0;
+    }
+    .petal6{
+        top: 40px;
+        left: -359px;
+        position: absolute;
+    }
+    .petal8{
+        position: absolute;
+        left: -125px;
+        bottom: -20px;
+    }
+    .petal9{
+        position: absolute;
+        left: -262px;
+        top: 89px;
+    }
+    .petal10{
+        position: absolute;
+        left: -359px;
+        bottom: 117px;
+    }
+    .petal11{
+        position: absolute;
+        top: -137px;
+        right: 258px;
+    }
+    .petal12{
+        position: absolute;
+        top: -150px;
+        right: 302px;
+    }
+
+    .petal13{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .petal14{
+        position: absolute;
+        right: -125px;
+        top: 290px;
+    }
+    .petal15{
+        top: 465px;
+        position: absolute;
+        right: -17px;
+    }
+    .petal16{
+        /*left: 1550px;*/
+        height: 150px;
+        width: 150px;
+        bottom: -130px;
+        position: absolute;
+        right: 158px;
+        background-image: url("../images/petal16.png");
+    }
+    .petal17{
+        background-image: url("../images/petal17.png");
+        position: absolute;
+        width: 170px;
+        height: 176px;
+        z-index: -100;
+        right: 0px;
+        bottom: -351px;
+    }
+    .petal18{
+        position: absolute;
+        top: 560px;
+        left: -190px;
+    }
+    .petal19{
+        position: absolute;
+        z-index: 444;
+        top: 500px;
+        right: 200px;
+    }
+
+    .petal24{
+        position: absolute;
+        top: 150px;
+        left: -225px;
+    }
+    .petal25{
+        position: absolute;
+        bottom: 90px;
+        left: -360px;
+    }
+    .petal21{
+        position: absolute;
+        right: 0;
+        top: -53px;
+    }
+
+    .petal22{
+        background-image: url("../images/petal22.png");
+        position: absolute;
+        width: 86px;
+        height: 80px;
+        right: 215px;
+        top: 179px;
+        z-index: -100;
+    }
+    .petal23{
+        background-image: url("../images/petal23.png");
+        position: absolute;
+        width: 71px;
+        height: 82px;
+        right: 245px;
+        top: 339px;
+        z-index: -100;
+    }
+
+    #advantages-container,#contacts, #advantages, #questions-container, #services-container, #gallery-container, #contacts-container, #present-container, #masters-container {
+        position: relative;
+    }
+
+    .lavand {
+        background-image: url("../images/lavand.png");
+        position: absolute;
+        right: -300px;
+        top: 378px;
+        height: 468px;
+        width: 420px;
+        background-repeat: no-repeat;
+    }
+    #gallery-photos .slick-next {
+        right: 43%;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    #gallery-photos .slick-next {
+        right: 43%;
+    }
+}
+
+@media screen and (max-width: 1202px) {
+    #advantages .slick-initialized .slick-slide {
+        width: 400px;
+        margin-right: 0px;
+    }
+
+    .master-img img{
+        margin: 0 auto;
+    }
+    .master-info{
+        right: 35%;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .questions-block #accordion {
+       width: 550px;
+    }
+
+    iframe {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    #header, .main-container, #advantages-container, #services-container, #present-container, #masters-container, #gallery-container, #questions-container, #contacts-container, #footer-container {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+    .master-img img{
+        margin: 0 auto;
+    }
+    .master-info{
+        right: 35%;
+    }
+   #masters-container .slick-initialized .slick-slide{
+        margin-right: 0;
+    }
+    #present-img {
+        max-width: 825px;
+    }
+
+    #present-img img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    #gallery-photos .slick-next {
+        right: 36%;
+    }
+
+    #accordion {
+        max-width: 715px;
+    }
+
+    #services-items {
+        flex-wrap: wrap;
+        margin: 0 auto;
+        justify-content: space-between;
+        width: 600px;
+    }
+
+    .services-item {
+        margin-bottom: 20px;
+    }
+
+    #present-container {
+        /*flex-wrap: wrap-reverse;*/
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .main-button button {
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 100px;
+
+    }
+
+    #present .titles {
+        padding-top: 54px;
+    }
+
+    #present-info {
+        margin-bottom: -100px;
+    }
+
+    .test-popup-link img {
+        max-width: 250px;
+    }
+
+    #gallery-photos .slick-prev, #gallery-photos .slick-next {
+        top: 230px;
+        right: 32%;
+    }
+
+}
+
+@media screen and (min-width: 1199px) {
+    #present-img {
+        max-width: 819px;
+    }
+
+    #present-img img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    #accordion {
+        max-width: 715px;
+    }
+
+}
+
+@media screen and (max-width: 1023px) {
+
+    #gallery-photos .slick-next {
+        right: 28%;
+    }
+    #reserve-button:after{
+        right: 5px;
+    }
+
+    .questions-block form {
+        width: 366px;
+    }
+
+    #call-decs {
+        width: 291px;
+    }
+
+    #accordion {
+        width: 550px;
+    }
+
+    .contacts-maps {
+        width: 600px;
+    }
+
+
+
+    .my-dots {
+        left: 34%;
+    }
+
+    #gallery-photos .slick-next {
+
+        right: 32%;
+    }
+
+    #gallery-photos .slick-prev {
+        left: 30%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+    #gallery-photos .slick-next {
+        right: 32%;
+    }
+    #header, .main-container, #advantages-container, #services-container, #present-container, #masters-container, #gallery-container, #questions-container, #contacts-container, #footer-container {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+
+   
+}
+
+@media (min-width: 1025px) and (max-width: 1077px) {
+    #gallery-photos .slick-next {
+        right: 30%;
+    }
+    .questions-block form{
+        width: 366px;
+    }
+    #call-decs{
+        width: 319px;
+    }
+    #reserve-button:after{
+        right: 9px;
+    }
+}
+
+@media (min-width: 1081px) and (max-width: 1160px) {
+    #gallery-photos .slick-next {
+        right: 30%;
+    }
+
+}
+
+@media (min-width: 871px) and (max-width: 960px) {
+    #gallery-photos .slick-next {
+        right: 30%;
+    }
+
+}
+
+@media screen and (max-width: 974px) {
+    .questions-block {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: 30px;
+    }
+    #present-img{
+        z-index: -5;
+        max-width: 562px;
+        position: absolute;
+    }
+    #footer-container .header-logo{
+        padding-left: 0;
+        flex-grow: 2;
+    }
+    .footer-icons{
+        width: 160px;
+    }
+    #present-img img{
+        filter: blur(2px);
+    }
+    #gallery-photos .slick-next {
+        right: 28%;
+    }
+
+    #questions {
+        background-size: cover;
+        padding-bottom: 100px;
+    }
+
+    #questions-container .titles {
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    .questions-block form {
+        margin-top: 30px;
+    }
+
+    #advantages-container .titles {
+        text-align: center;
+    }
+
+    #contacts {
+        margin-top: 0;
+    }
+
+    #contacts-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #contacts-container .titles {
+        text-align: center;
+    }
+
+    .contacts-data {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .times, .phone {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .slick-dots {
+        /*width: 190px;*/
+        left: 35.5%;
+    }
+    #services-items{
+        width: 280px;
+    }
+    #gallery .slider-controls{
+        left: 30%;
+    }
+
+    #services-container .titles {
+        text-align: center;
+    }
+
+    #services-desc {
+        text-align: center;
+        width: auto;
+    }
+    #masters-container .slider-controls{
+        left: 42%;
+    }
+
+    .footer-times {
+        display: none;
+    }
+
+    #gallery-container {
+        text-align: center;
+    }
+
+    #gallery-desc {
+        max-width: 100%;
+    }
+
+    #masters-container .titles {
+        text-align: center;
+    }
+
+    #masters-desc {
+        text-align: center;
+        max-width: 100%;
+    }
+
+    #header-phone {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 579px) {
+    #burger {
+        display: block;
+        order: 2;
+    }
+    #gallery .slider-controls{
+        left: 21%;
+    }
+
+    #masters-container .slider-controls {
+        left: 38%;}
+    #main{
+        background: linear-gradient(rgb(145 145 145 / 50%), rgb(24 24 24 / 50%)),url(../images/main.png);
+        height: 826px;
+        background-position: center;
+    }
+    #header-items svg{
+        display: block;
+        width: 24px;
+        fill: white;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+    #footer-container{
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #header {
+        position: relative;
+    }
+
+    #header-menu {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0;
+        padding-top: 30px;
+        background: #000000d9;
+        top: 0;
+        left: 0;
+        display: none;
+        z-index: 10000;
+    }
+    #header-menu a:hover{
+        border-bottom: none;
+        color: white;
+    }
+    .header-menu-item {
+        display: block;
+        width: auto;
+        color: #FFFFFF;
+        padding-bottom: 20px;
+    }
+    .ui-accordion .ui-accordion-header{
+        font-size: 15px;
+    }
+    #header-menu a.active {
+        border-bottom: none;
+        color: white;
+    }
+
+    #header-menu a {
+        color: white;
+    }
+    .phone, .times{
+        margin-left: 0px;
+    }
+    .contacts-data{
+        display: block;
+    }
+
+    #header-items.menu-open #header-menu {
+        display: flex;
+    }
+
+    .contacts-maps {
+        width: 90%;
+    }
+
+    .footer-phone {
+        padding-top: 10px;
+    }
+
+    .my-dots {
+        left: 24%;
+    }
+    .phone{
+        margin-bottom: 35px;
+    }
+
+    #gallery-photos .slick-next {
+        right: 15%;
+    }
+
+    #gallery-photos .slick-prev {
+        left: 18%;
+    }
+
+    .addresses{
+        padding-bottom: 40px;
+    }
+    #services-container, #masters, #gallery, #questions, #advantages-container{
+        margin-top: 80px;
+    }
+    #questions{
+        padding-bottom: 80px;
+    }
+    #reservation{
+        max-width: 320px;
+    }
+    .reserve-input{
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .reserve-input input{
+        width: 259px;
+    }
+    #reservation-content .main-button button{
+        width: 259px;
+    }
+    .reserve-input select{
+        width: 259px;
+    }
+    .input-group .form-control{
+        width: 259px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .contacts-maps {
+        width: 90%;
+    }
+    .petal12, .petal11{
+        display: none;
+    }
+}
+@media screen and (max-width: 499px){
+    #main-title{
+        font-size: 28px;
+        max-width: 400px;
+    }
+
+}
+@media screen and (max-width: 479px){
+
+    #main-desc{
+        max-width: 300px;
+        font-size: 16px;
+    }
+    #reserve-button:after{
+        right: 20px;
+    }
+    .master-info{
+        left: 0;
+    }
+    .lavand, .lavander{
+        display: none;
+    }
+    .slick-prev, .slick-next{
+        bottom: -16%;
+    }
+    .master-img img{
+        display: block;
+        width: 100%;
+        max-width: 100%;
+    }
+    #main-title{
+        font-size: 23px;
+        max-width: 300px;
+    }
+    .advantages-item-images{
+        margin-right: -15px;
+    }
+
+    .advantages-item{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .slick-dots{
+        left: 23.5%;
+    }
+
+    .my-dots{
+        left: 12%;
+    }
+    .ui-icon{
+        right: 8px;
+    }
+
+    .questions-block{
+        margin-left: 0;
+    }
+    .reservation-close{
+        background-color: inherit;
+        right: 0px;
+        top: 0px;
+    }
+    #reservation-container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .thanks-desc{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #present-desc{
+        width: auto;
+    }
+
+    #call-decs{
+        font-size: 15px;
+        width: 250px;
+    }
+    .my-dots{
+        bottom: -52px;
+    }
+    .slick-dots li.slick-active{
+        font-size: 18px;
+    }
+    .slick-dots li{
+        font-size: 15px;
+    }
+    .my-dots li{
+        width: 13px;
+        height: 13px;
+    }
+    #reserve-call .reserve-input input{
+        width: 250px;
+    }
+    #reserve-button button{
+        width: 250px;
+    }
+}
+@media screen and (max-width: 1600px){
+    .petal24{
+        z-index: -1;
+    }
+    .petal16, .petal17, .petal14, .petal3{
+        display: none;
+    }
+}
+@media screen and (max-width: 1400px){
+    .petal25{
+        z-index: -1;
+    }
+    .petal15{
+        right: 8px;
+    }
+
+}
+@media screen and (max-width: 1229px){
+   .questions-block #accordion{
+        max-width: 615px;
+    }
+
+}
+@media screen and (max-width: 1207px){
+    .petal15{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 355px){
+   iframe{
+        width: 100%;
+    }
+    #reserve-button:after{
+        right: -17px;
+    }
+    .petal19{
+        display: none;
+    }
+    #gallery .slider-controls{
+        left: 16%;
+    }
+}
+/*@media screen and (max-width: 1210px){*/
+/*    #masters-container .slick-initialized .slick-slide{*/
+/*        margin-right: 0;*/
+/*    }*/
+/*}*/
